@@ -1,0 +1,21 @@
+
+html
+  head
+    link(rel="stylesheet", href="/stylesheets/style.css")
+    title= title
+  body
+    h1= title
+- var n = 0;
+table
+  tr
+    th Auteur
+    th Titre
+  while n < length
+   tr
+    th=books[n].author
+    td=books[n].title
+    n= n++
+br
+form(action="/", method="get")
+  a(href="/") Revenez à la recherche de livre.
+

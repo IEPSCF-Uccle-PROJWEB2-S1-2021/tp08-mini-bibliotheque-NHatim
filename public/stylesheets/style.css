@@ -1,8 +1,32 @@
 body {
   padding: 50px;
+  padding-top: 30px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  vertical-align: auto;
+}
+
+h1{
+  color: red;
+  text-align: center;
+  padding-top: -2em;
 }
 
 a {
   color: #00b7ff;
+  margin-left: auto;
+  text-align: center;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th{
+  padding: 0.5em;
+  text-align: center;
+}
+
+n{
+  visibility: hidden;
 }

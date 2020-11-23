@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<body>
+  <h1><%= title %></h1>
+  <p>Bienvenue à la <%= title %> de Hatim</p>
+
+
+  <form action="/books/list" method="post">
+    <p>Choissisez votre catégorie :
+      <select name="category" id="category">
+        <option value="Fantasy">Fantasy</option>
+        <option value="Autobiographie">Autobiographie</option>
+        <option value="Roman Historique">Roman Historique</option>
+      </select>
+    </p>
+    <button type="submit">Rechercher</button>
+  </form>
+</body>
+
+</html>
